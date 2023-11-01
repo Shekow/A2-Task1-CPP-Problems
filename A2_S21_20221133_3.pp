@@ -5,11 +5,13 @@
 // ID: 20221133
 // TA: Rana Abdelkader
 // Date: 23 Oct 2023
+
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
+
 vector<string> split(string target, string delimiter){
-    string temp = "";
+    string temp;
     vector<string> ans;
     for (int i = 0; i < target.size(); ++i) {
         temp.push_back(target[i]);
