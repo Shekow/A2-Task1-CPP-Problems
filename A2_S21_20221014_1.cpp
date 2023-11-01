@@ -1,15 +1,3 @@
-#include <iostream>
-#include <bits/stdc++.h>
-#define ull unsigned long long
-#define ll long long
-#define ld long double
-#define each auto &
-#define endl '\n'
-#define pll pair<ll, ll>
-#define all(v) v.begin(), v.end()
-#define INF LONG_LONG_MAX
-#define Outsiders freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
-using namespace std;
 // File: A2_S21_20221014_1.cpp
 // Purpose: Printing sentences with correct capitalization and punctuation
 // Author: Ahmed Yosry Saad
@@ -18,12 +6,19 @@ using namespace std;
 // TA: Rana Abdelkader
 // Date: 1 Nov 2023
 
+#include <bits/stdc++.h>
+#define ll long long
+#define each auto &
+#define endl '\n'
+#define pll pair<ll, ll>
+#define all(v) v.begin(), v.end()
+using namespace std;
 
 
 
 int main(){
         string s ;
-        string sentence="";
+        string sentence;
         bool started = false;
         while (cin >> s ){
             for (int i = 0; i < s.size(); ++i) {
