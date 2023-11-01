@@ -1,5 +1,5 @@
 // File: A2_S21_20221081_2.cpp
-// Purpose: Revising C++ Concepts
+// Purpose: converting male speech to inclusive speech
 // Author: Sherif Youssef Mahmoud
 // Section: S21
 // ID: 20221081
