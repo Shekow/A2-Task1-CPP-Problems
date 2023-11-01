@@ -71,5 +71,5 @@ int main()
         cout << "K : ";
         cin >> k;
         number(prefix, k);
-    }
+}
 }
