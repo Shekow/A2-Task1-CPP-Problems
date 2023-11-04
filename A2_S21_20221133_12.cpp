@@ -1,5 +1,5 @@
 // File: A2_S21_20221133_12.cpp
-// Purpose: solving problem 12 in Problem Sheet 1 – Version 2.0
+// Purpose: check the score of phising in file you input
 // Author: Mohamed Hesham
 // Section: S21;
 // ID: 20221133
