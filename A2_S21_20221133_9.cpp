@@ -10,33 +10,32 @@
 #include <bits/stdc++.h>
 #include <string>
 #define ll long long
-
 using namespace std;
 
-bool can_win(int n ){
-    if (n==42) return true;
-    if (n<42)
-        return false;
-    if (n%2==0)
-        if (can_win(n/2))
-            return true;
+set<ll> st;
 
-    if (n%3==0 || n%4==0)
-        if (can_win(n - ((n % 10) * ((n % 100) / 10))))return true;
-
-    if (n%5==0){ if (can_win(n-42))return true;}
-
+bool can_win(int n)
+{
+    if (st.count(n)) return false;
+    st.insert(n);
+    if (n == 42) return true;
+    if (n < 42) return false;
+    if (n % 2 == 0 && can_win(n/2)) return true;
+    if ((n % 3 == 0 || n % 4 == 0) && can_win(n - ((n % 10) * ((n % 100) / 10)))) return true;
+    if (n % 5 == 0 && can_win(n - 42)) return true;
     return false;
 }
 int main()
 {
     int n;
-    cout << "Enter a number : " ;
-    cin>>n;
-    if(can_win(n)){
-cout<<"You can Win ";
+    cout << "Enter a number: " ;
+    cin >> n;
+    if(can_win(n))
+    {
+        cout << "You can Win";
     }
-    else{
-        cout<<"You can't Win ";
+    else
+    {
+        cout << "You can't Win";
     }
 }
