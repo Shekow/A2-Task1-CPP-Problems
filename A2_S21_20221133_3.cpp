@@ -1,5 +1,5 @@
 // File: A2_S21_20221133_3.cpp
-// Purpose: solving problem 3 in Problem Sheet 1 – Version 2.0
+// Purpose: take sentance and remove the unwanted delimeter then split remiaining sentence in words
 // Author: Mohamed Hesham
 // Section: S21;
 // ID: 20221133
