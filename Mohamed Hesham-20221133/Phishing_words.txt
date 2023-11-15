@@ -1,0 +1,30 @@
+1 Label
+1 Post
+1 Update
+2 Payment
+2 Confirm
+2 Password Expire
+1 Urgency
+1 Authority
+2 Verification required
+2 help
+2 Action required
+2 Change of Password
+2 Password Reset for Account
+2 Payroll 
+3 Billing information is out of date
+3 Immediate password check required
+1 Your meeting attendees are waiting!
+1 Office reopening schedule
+1 Updated vacation policy
+1 Information
+3 request
+3 shared 
+2 detected
+2 Earn money 
+1 Reminder
+3 Important
+3 Security alert
+2 Your account 
+3 You have won
+3 link 
